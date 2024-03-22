@@ -32,7 +32,7 @@ describe('E2E Clouthing store scenarios', () => {
     // Start the registration flow
 
      /// This variables help to no create a repeated user
-     const User = "user" + String(Math.floor(Math.random() * 1001));
+     const User = "user" + String(Math.floor(Math.random() * 10001));
      const userEmail = String(User+'@test.com');
      const password = "123456";
 
